@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+
+    <header class="header p-5 mb-5">
+        <h1 class="text-center">Bootstrap 5 - La Guía Completa inc. BEM y SASS +10 Proyectos</h1>
+        <p class="text-center text-white">Básicos de Bootstrap 5</p>
+    </header>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Contenedores</h1>
+        <div class="container">Contenido</div>
+        <div class="container-fluid">Conteiner-fluid</div>
+
+        <div class="container-sm">Contenido</div>
+        <div class="container-md">Contenido</div>
+        <div class="container-lg">Contenido</div>
+        <div class="container-xl">Contenido</div>
+        <div class="container-xxl">Contenido</div>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Grid</h1>
+
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>1</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde ullam aliquam explicabo eum suscipit corrupti? Tenetur sit repellendus soluta debitis, provident reiciendis praesentium ipsum illo repellat nesciunt tempore aspernatur sapiente?</p>
+                </div>
+                <div class="col-md-4">
+                    <h1>2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam qui asperiores, laborum maxime, amet temporibus, dolore officiis sunt cum doloribus ad illum! Delectus consequuntur eveniet fugiat? Pariatur sint voluptate maxime!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Tipografia</h1>
+
+        <h1>Encabezado 1</h1>
+        <h2>Encabezado 2</h2>
+        <h3>Encabezado 3</h3>
+        <h4>Encabezado 4</h4>
+        <h5>Encabezado 5</h5>
+        <h6>Encabezado 6</h6>
+        
+        
+        <p>Este es un párrafo</p>
+        
+        
+        <!-- Display -->
+        <h1 class="display-1">Encabezado 1 con clase display-1</h1>
+        <h1 class="display-2">Encabezado 1 con clase display-2</h1>
+        <h1 class="display-3">Encabezado 1 con clase display-3</h1>
+        <h1 class="display-4">Encabezado 1 con clase display-4</h1>
+        <h1 class="display-5">Encabezado 1 con clase display-5</h1>
+        <h1 class="display-6">Encabezado 1 con clase display-6</h1>
+
+        <p class="display-1">Este es un párrafo con display-1</p>
+        
+        <!-- font-size -->
+        <h1 class="fs-1">Encabezado con Font Size fs-1</h1>
+        <h1 class="fs-2">Encabezado con Font Size fs-2</h1>
+        <h1 class="fs-3">Encabezado con Font Size fs-3</h1>
+        <h1 class="fs-4">Encabezado con Font Size fs-4</h1>
+        <h1 class="fs-5">Encabezado con Font Size fs-5</h1>
+        <h1 class="fs-6">Encabezado con Font Size fs-6</h1>
+        
+        <p class="fs-1">Este es un párrafo con font size fs-1</p>
+
+
+
+        <!-- Utilidades para alinear texto -->
+        <p class="text-start">Teto a la izquierda</p>
+        <p class="text-end">Teto a la derecha</p>
+        <p class="text-center">Teto al centro</p>
+
+        <!-- con media querys -->
+        <p class="text-end text-md-center text-xl-start">Texto a la derecha, centro e izquierda</p>
+
+
+        <!-- Capitalización -->
+        <p class="text-lowercase">MINÚSCULAS</p>
+        <P class="text-uppercase">mayusculas</P>
+        <p class="text-capitalize">Encabezado con un tipo capitalizado</p>
+
+
+        <!-- Controlar font weight -->
+        <p class="fw-bold">Texto</p>
+        <p class="fw-normal">Texto</p>
+        <p class="fw-light">Texto</p>
+
+
+
+
+
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Colores en Bootstrap</h1>
+
+        <h1 class="text-primary">Colores en textos</h1>
+        <h1 class="text-secondary">Colores en textos</h1>
+        <h1 class="text-danger">Colores en textos</h1>
+        <h1 class="text-warning">Colores en textos</h1>
+        <h1 class="text-success">Colores en textos</h1>
+        <h1 class="text-dark">Colores en textos</h1>
+        <h1 class="text-info">Colores en textos</h1>
+        <h1 class="text-white bg-info">Colores en textos</h1>
+
+
+        <div class="bg-primary">Un div con contenido</div>
+        <div class="bg-secondary">Un div con contenido</div>
+        <div class="bg-danger">Un div con contenido</div>
+        <div class="bg-warning">Un div con contenido</div>
+        <div class="bg-success">Un div con contenido</div>
+        <div class="bg-dark">Un div con contenido</div>
+        <div class="bg-info">Un div con contenido</div>
+        <div class="bg-white">Un div con contenido</div>
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Imágenes</h1>
+
+        
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/curso_1.jpg" alt="Hombre vestido de negro tocando la guitarra al atardecer">
+                    <img class="img-thumbnail" src="img/curso_1.jpg" alt="Hombre vestido de negro tocando la guitarra al atardecer">
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Botones</h1>
+
+        <button type="button" class="btn btn-primary">Agregar <i class="bi bi-person-plus-fill"></i></button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
+        <button type="button" class="btn btn-warning">Modificar</button>
+        <button type="button" class="btn btn-dark">Modificar</button>
+
+
+        <a href="#" class="btn btn-primary" >enlace</a>
+
+
+        <input type="submit" class="btn btn-primary" value="Enviar formulario"><i class="bi bi-send"></i>
+        <button type="submit" class="btn btn-primary" >Enviar formulario <i class="bi bi-send"></i></button>
+
+
+
+        <a href="#" class="btn btn-outline-primary" > <i class="bi bi-link-45deg"></i> enlace </a>
+        <a href="#" class="btn btn-outline-danger" >enlace</a>
+        <a href="#" class="btn btn-outline-warning" >enlace</a>
+
+        <button type="button" class="btn btn-primary btn-lg">Agregar <i class="bi bi-person-plus-fill"></i></button>
+        <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
+        <button type="button" class="btn btn-warning fs-1">Modificar</button>
+        <button type="button" class="btn btn-dark" disabled>Modificar</button>
+        <!-- Reto btn eliminar con icono -->
+        <button type="button" class="btn btn-danger btn-sm"> <i class="bi bi-trash"></i> Eliminar</button>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Margins y Paddings</h1>
+
+        <div class="container-xl">
+
+            <div class="col-xl-6">
+                <p>Padding </p>
+            <table>
+                <th>Padding </th>
+                <tr><td></td><td>t</td><td>1</td></tr>
+                <tr><td></td><td>b</td><td>2</td></tr>
+                <tr><td>p</td><td>e</td><td>3</td></tr>
+                <tr><td></td><td>s</td><td>4</td></tr>
+                <tr><td></td><td>x</td><td>5</td></tr>
+                <tr><td></td><td>y</td><td></td></tr>
+            </table>
+        </div>
+        <div class="col-xl-6">
+            <p>margin </p>
+            <table>
+                <th>margin </th>
+                <tr><td></td><td>t</td><td>1</td></tr>
+                <tr><td></td><td>b</td><td>2</td></tr>
+                <tr><td>m</td><td>e</td><td>3</td></tr>
+                <tr><td></td><td>s</td><td>4</td></tr>
+                <tr><td></td><td>x</td><td>5</td></tr>
+                <tr><td></td><td>y</td><td></td></tr>
+                <tr><td></td><td></td><td>auto</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="container-xl">
+        <div class="bg-success text-white p-5 m-5">Ejemplo de padding y margin top bottom end start 5 </div>
+        <hr>
+        <div class="bg-success text-white pt-3 mt-4">Ejemplo de padding y margin top 4 </div>
+        <hr>
+        <div class="bg-success text-white pb-3 mb-3">Ejemplo de padding y margin bottom 3</div>
+        <hr>
+        <div class="bg-success text-white pe-3 me-3">Ejemplo de padding y margin end 3 </div>
+        <hr>
+        <div class="bg-success text-white ps-3 ms-3">Ejemplo de padding margin start 3</div>
+        <hr>
+        <div class="bg-success text-white px-3 mx-3" >Ejemplo de padding y margin -x- derecha izquierda </div>
+        <hr>
+        <div class="bg-success text-white py-3 my-3">Ejemplo de padding y margin -y- arriba y abajo </div>
+        <hr>
+        <div class="bg-success text-white my-3">Ejemplo de margin auto </div>
+        <hr>
+        
+        <!-- los enlaces a tienen display inline y no soportan margin auto, se acoplan a la izquierda siempre, para que mx-auto funcione es necesario aplicar la clase  d-block para que se distinga que se centra hay que aumentarle el ancho a 10rem-->
+        <a href="#" style="width:10rem" class="mx-auto d-block ">link</a>
+        <hr>
+        
+        <button href="#" class="mx-auto d-block ">link</button>
+        <hr>
+        
+        <button type="button" class="btn btn-danger px-5"> <i class="bi bi-trash"></i> Eliminar</button>
+        
+        <hr>
+
+        <!-- separaciones -->
+        <div class="bg-success p-3 text-white">Ejemplo de separaciones </div>
+        <div class="bg-danger p-3 text-white ">Ejemplo de separaciones </div>
+        <div class="d-grid gap-4">
+            <div class="bg-success p-3 text-white">Ejemplo de separaciones </div>
+            <div class="bg-danger p-3 text-white ">Ejemplo de separaciones </div>
+        </div>
+
+    </div>
+        
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Spinners</h1>
+
+        <div class="d-flex justify-content-evenly">
+
+            <div class="spinner-border "></div>
+            <div class="spinner-border  "></div>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-danger"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border text-dark"></div>
+
+
+        </div>        
+
+        <div class="d-flex justify-content-center">
+
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Cargando...</span>
+            </div>
+
+        </div>        
+
+
+
+
+
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Cards</h1>
+
+        <div class="container-xl">
+            <div class="row">
+
+                <div class="mb-3 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/curso_1.jpg" alt="fotografía que encuadra un fondo luminoso, con destellos anaranjados y desenfocado  y el torso de un hombre sentado vestido de negro que toca una guitarra">
+                        <div class="card-header">
+                            Desde el header
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Curso de guitarra</h3>
+                            <p class="card-text">Descripcion</p>
+                            <a href="#" class="btn btn-primary w-100">Tomar curso</a>
+                        </div>
+                        <div class="card-footer">
+                            Desde el footer
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mb-3 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/curso_2.jpg" alt="fotografía que encuadra un fondo luminoso, con destellos anaranjados y desenfocado  y el torso de un hombre sentado vestido de negro que toca una guitarra">
+                        <div class="card-header">
+                            Desde el header
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Curso de diseño gráfico</h3>
+                            <p class="card-text">Descripcion</p>
+                            <a href="#" class="btn btn-primary w-100">Tomar curso</a>
+                        </div>
+                        <div class="card-footer">
+                            Desde el footer
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/curso_3.jpg" alt="fotografía que encuadra un fondo luminoso, con destellos anaranjados y desenfocado  y el torso de un hombre sentado vestido de negro que toca una guitarra">
+                        <div class="card-header">
+                            Desde el header
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Curso de diseño UX</h3>
+                            <p class="card-text">Descripcion</p>
+                            <a href="#" class="btn btn-primary w-100">Tomar curso</a>
+                        </div>
+                        <div class="card-footer">
+                            Desde el footer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Formularios</h1>
+
+
+        <div class="container-xl">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+
+                    <form action="">
+                        <legend><i class="bi bi-person-plus-fill"></i> Nuevo Cliente</legend>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label" >Nombre</label>
+                            <input id="nombre" type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="empresa" class="form-label" >Empresa</label>
+                            <input id="empresa" type="text" class="form-control">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="email" class="form-label" >e-Mail</label>
+                            <input id="email" type="email" class="form-control">
+                        </div>
+                        <button type="button" class="btn btn-primary">  <i class="bi bi-plus-circle-fill"></i> Registrar cliente </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Toasts</h1>
+
+
+        <!-- son sencillas notificaciones, usan js-->
+
+        <button type="button" class="btn btn-primary" id="toastBtn">Mostrar notificación</button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index:10;">
+            <div id="toast" role="alert"  class="toast hidde" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Email...</strong>
+                    <small>Hace 3 minutos</small>
+                    <button class="btn btn-close" data-bs-dismiss="toast" type="button" aria-label="Cerrar notificacion"></button>
+    
+                </div>
+                <div class="toast-body">
+                    <p>Has recibido un mensaje</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            document.querySelector('#toastBtn').onclick = e => {
+                    e.preventDefault();
+                    //Mostrar el toast
+                    const toastEl = document.querySelector('#toast');
+                    const toast = new bootstrap.Toast( toastEl );
+                    toast.show();
+            }
+        </script>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Carousel</h1>
+
+        <div class="container-xl">
+            <div id="indicadores" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                    <button class="active" type="button" data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#indicadores" data-bs-slide-to="3"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <img src="img/galeria_01.jpg" alt="slide 1" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/galeria_02.jpg" alt="slide 2" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/galeria_03.jpg" alt="slide 3" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/galeria_04.jpg" alt="slide 4" class="d-block w-100">
+                    </div>
+
+                    <button type="button" class="carousel-control-prev"
+                        data-bs-slide="prev"  data-bs-target="#indicadores">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                  
+                    <button type="button" class="carousel-control-next"
+                    data-bs-slide="next" data-bs-target="#indicadores">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>  
+            </div>
+        </div>
+
+
+
+
+    </section>
+    
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Modals</h1>
+
+        <div class="container-xl">
+            <button id="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
+                Ver formulario
+            </button>
+            <!-- Modal -->
+            <div id="modal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">
+                                Nuevo cliente
+                            </h2>
+                            <button data-bs-dismiss="modal" type="button" class="btn-close"/>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <legend><i class="bi bi-person-plus-fill"></i> Nuevo Cliente</legend>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label" >Nombre</label>
+                                    <input id="nombre" type="text" class="form-control">
+                                </div>
+        
+                                <div class="mb-3">
+                                    <label for="empresa" class="form-label" >Empresa</label>
+                                    <input id="empresa" type="text" class="form-control">
+                                </div>
+                               
+                                <div class="mb-3">
+                                    <label for="email" class="form-label" >e-Mail</label>
+                                    <input id="email" type="email" class="form-control">
+                                </div>
+                               
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">  <i class="bi bi-plus-circle-fill"></i> Registrar cliente </button>
+                            <button data-bs-dismiss="modal" type="button" class="btn btn-danger">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Navs</h1>
+
+        <div class="container-xl">
+            <ul class="nav flex-column flex-md-row  justify-content-evenly">
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" >Nosotros</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="dropdown-item" href="#">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="dropdown-item" href="#">Historia</a>
+                        </li>
+                        <li>
+                            <a href="dropdown-item" href="#">Clientes</a>
+                        </li>
+                    </ul>           
+                
+                
+                </li>
+                <li class="nav-item"><a href="#" data-bs-toggle="dropdown"  class="nav-link dropdown-toggle">Tienda</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="dropdown-item" href="#">Categorías</a>
+                        </li>
+                        <li>
+                            <a href="dropdown-item" href="#">Nuevos Productos</a>
+                        </li>
+                        <li>
+                            <a href="dropdown-item" href="#">Ofertas</a>
+                        </li>
+                        <li>
+                            <a href="dropdown-item" href="#">Categorías</a>
+                        </li>
+                    </ul>           
+                
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+   
+
+
+    </section>
+    
+    <section class="seccion">
+        <h1 class="text-center my-5 heading">Off Canvas</h1>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">Administrar Perfil</button>
+
+        <!--  offcanvas-top|start|end|bottom bg-primary"> -->
+        <div id="menu" class="offcanvas offcanvas-start ">
+
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title">Navegacion</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h3>Administracion</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Información</a>
+                    </li>
+                    <li class="nav-item">                        
+                        <a href="#" class="nav-link">Pedidos</a>
+                    </li>
+                    <li class="nav-item">                        
+                        <a href="#" class="nav-link">Tarjetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Notificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        
+                    </li>
+                </ul>
+
+            </div>
+            <!-- off canvas footer no existe aun -->
+        </div>
+
+
+
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+</html>
